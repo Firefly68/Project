@@ -1,0 +1,81 @@
+/* Default CSS */
+
+
+.my-body {
+    background-color: cadetblue;
+    font-family: Calibri;
+    font-size: 14pt;
+    position: relative;
+    padding: 0 50px;
+}
+
+header {
+    font-size: 28pt;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h4 {
+    font-size: 16pt;
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+
+/* Style all font awesome icons for the social media icons*/
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* Google */
+
+.fa-google {
+    background: #00A7FF;
+    color: white;
+}
+
+
+/* LinkedIn */
+
+.fa-linkedin-square {
+    background: #3B29FF;
+    color: white;
+}
