@@ -1,6 +1,6 @@
 /* Default CSS */
 
-
+/* Makes sure that my body style isn't ovewritten by bootstrap */
 .my-body {
     background-color: cadetblue;
     font-family: Calibri;
