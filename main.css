@@ -1,10 +1,11 @@
 /* Default CSS */
 
 /* Makes sure that my body style isn't ovewritten by bootstrap */
+
 .my-body {
     background-color: cadetblue;
-    font-family: Calibri;
-    font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
     position: relative;
     padding: 0 50px;
 }
@@ -34,7 +35,6 @@ h5 {
     font-size: 14pt;
 }
 
-
 /* Style all font awesome icons for the social media icons*/
 
 .fa {
@@ -45,9 +45,7 @@ h5 {
     text-decoration: none;
 }
 
-
 /* Set a specific color for each brand */
-
 
 /* Facebook */
 
@@ -56,7 +54,6 @@ h5 {
     color: white;
 }
 
-
 /* Twitter */
 
 .fa-twitter {
@@ -64,14 +61,12 @@ h5 {
     color: white;
 }
 
-
 /* Google */
 
 .fa-google {
     background: #00A7FF;
     color: white;
 }
-
 
 /* LinkedIn */
 
