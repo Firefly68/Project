@@ -3,7 +3,7 @@
 /* Makes sure that my body style isn't ovewritten by bootstrap */
 
 .my-body {
-    background-color: cadetblue;
+    background-color: rgb(184, 247, 243);
     font-family: 'Ubuntu', sans-serif;
     font-size: 12pt;
     position: relative;
