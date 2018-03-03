@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="my-body">
@@ -77,6 +78,19 @@
         </ul>   
     
     <p>The full length of the file path (see Glossary), including the name and file extension (see Glossary) of the file, has a limit of 260 characters. This means you should stick with a few words to describe your files rather than entire sentences. Some programs suggest names for you based on the first part of the content they see. Microsoft Word will use the first few words or characters in the file to suggest a name. You don’t have to use the suggestion if it doesn’t work to describe the contents properly, just delete what it suggests and type your own name. Other programs may have a naming convention they use by default. Tax software, for example will tend to use the name on the tax return you’ve created plus the year you’re filing.</p>
+
+    <div class="container-fluid">
+
+            <div id="f-placeholder">
+            </div>
+    
+            <script>
+                $(function () {
+                    $("#f-placeholder").load("footer.html");
+                });
+            </script>
+    
+        </div>
 
 </body>
 
